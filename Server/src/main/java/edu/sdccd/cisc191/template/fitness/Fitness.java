@@ -78,7 +78,7 @@ public class Fitness {
 
     public String getOptionsAsString() {
 
-        return options.stream().map(option -> option.getDetails()).collect(Collectors.joining(", "));
+        return options.stream().map(option -> getOptionsAsString())  .collect(Collectors.joining(", "));
     }
 
     public void setOptions(List<Option> options) {

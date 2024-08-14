@@ -15,7 +15,7 @@ public class Option {
 
     public Option() {}
 
-    public String getDetails() {
+    public String getDetailsAsString() {
         return details;
     }
 
